@@ -1,27 +1,35 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Trip Tide</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html">
+            <a href="index.html">
                 <span>&#x2708;</span>
                 <span>TripTide</span>
             </a>
         </div>
         <nav>
             <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="./about.html">about us</a></li>
-                <li><a href="./contact.html">contact us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
+        <form class="form" id="form">
+            <input id="input" type="text" placeholder="Enter a destination or keyword">
+            <div class="button">
+                <button class="btn" type="submit">search</button>
+                <button class="btn" type="reset">clear</button>
+            </div>
+            <div class="recommendation">
+            </div>
+        </form>
     </header>
     <section class="contact">
         <ul>
@@ -44,10 +52,11 @@
                 <label for="message">message</label>
                 <textarea name="message" placeholder="Message" resize="false"></textarea>
                 <button class="btn" type="submit">submit</button>
+                
             </form>
         </div>
     </section>
-    <script src="js/index.js"> </script>
+    <script src="./assets/js/app.js"> </script>
 </body>
 
 </html>

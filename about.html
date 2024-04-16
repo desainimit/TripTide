@@ -1,28 +1,36 @@
-
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Trip Tide</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
+
   <header>
     <div class="logo">
-      <a href="../index.html">
+      <a href="index.html">
         <span>&#x2708;</span>
         <span>TripTide</span>
       </a>
     </div>
     <nav>
       <ul>
-        <li><a href="../index.html">home</a></li>
-        <li><a href="./about.html">about us</a></li>
-        <li><a href="./contact.html">contact us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <form class="form" id="form">
+      <input id="input" type="text" placeholder="Enter a destination or keyword">
+      <div class="button">
+        <button class="btn" type="submit">search</button>
+        <button class="btn" type="reset">clear</button>
+      </div>
+      <div class="recommendation">
+      </div>
+    </form>
   </header>
   <section class="about">
     <ul>
@@ -34,23 +42,26 @@
     </ul>
     <div class="intro">
       <h1>about us</h1>
-      <p>Travel Bloom is dedicated to providing unforgettable travel experiences tailored to your unique preferences. Our team of experienced professionals strives to exceed your expectations, ensuring every aspect of your journey is seamless and memorable. Whether you're seeking adventure, relaxation, or cultural immersion, we're here to turn your travel dreams into reality.</p>
+      <p>Travel Bloom is dedicated to providing unforgettable travel experiences tailored to your unique preferences.
+        Our team of experienced professionals strives to exceed your expectations, ensuring every aspect of your journey
+        is seamless and memorable. Whether you're seeking adventure, relaxation, or cultural immersion, we're here to
+        turn your travel dreams into reality.</p>
       <div class="team">
         <h2>our <br>team</h2>
         <div class="card">
-          <img src="../assets/images/avatar.jpeg" alt="avatar">
+          <img src="./assets/images/avatar.jpeg" alt="avatar">
           <h3>John Doe</h3>
           <p>John Doe is responsible for ..</p>
           <button class="btn">CEO</button>
         </div>
         <div class="card">
-          <img src="../assets/images/avatar.jpeg" alt="avatar">
+          <img src="./assets/images/avatar.jpeg" alt="avatar">
           <h3>Maria David</h3>
           <p>Maria David is responsible for ..</p>
           <button class="btn">CTO</button>
         </div>
         <div class="card">
-          <img src="../assets/images/avatar.jpeg" alt="avatar">
+          <img src="./assets/images/avatar.jpeg" alt="avatar">
           <h3>Sara Adam</h3>
           <p>Sara Adam is responsible for ..</p>
           <button class="btn">Team Lead</button>
@@ -58,7 +69,7 @@
       </div>
     </div>
   </section>
-  <script src="../assets/js/app.js"> </script>
+  <script src="./assets/js/app.js"> </script>
 </body>
 
 </html>
